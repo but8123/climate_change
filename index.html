@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>전세계의 기후변화대응</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>🌏전세계의 기후변화 대응🌏</h1>
+    <div id="map-container">
+        <img src="images/세계지도.webp" alt="세계 지도" id="map"/>
+    
+        <button class="continent" style="top: 60%; left: 12%;" onclick="goTo('africa')">아프리카</button>
+        <button class="continent" style="top: 40%; left: 33%;" onclick="goTo('asia')">아시아</button>
+        <button class="continent" style="top: 32%; left: 15%;" onclick="goTo('europe')">유럽</button>
+        <button class="continent" style="top: 37%; left: 75%;" onclick="goTo('northamerica')">북아메리카</button>
+        <button class="continent" style="top: 70%; left: 88%;" onclick="goTo('southamerica')">남아메리카</button>
+        <button class="continent" style="top: 80%; left: 43%;" onclick="goTo('oceania')">오세아니아</button>
+    </div>
+
+    <script>
+        function goTo(continent) {
+            window.location.href = continent + ".html";
+        }
+    </script>
+    <div id="card-container">
+        <div class="card">
+            <h2>기후변화대응</h2>
+            <hr>
+            <p>
+                지구온도 상승이 빨라지며 산업화 이전 대비 평균기온이 가파르게 상승하고 있다.
+                전 지구 해수면 상승속도는 20세기 대비 2.8배 증가하였으며 우리나라는 2040년까지 최대 11cm 상승이 예상된다.
+                이러한 기후변화로 인한 생태계·인간 생활에 대한 위험이 확대되었다.
+                기후변화에 대응하기 위해 필요한 기술에는 온실가스 감축 분야와 기후변화 적응 분야가 있다.
+                이 사이트는 여러 나라의 기후변화대응이 어떻게 진행되고 있는지 알리기 위해 제작되었다.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
