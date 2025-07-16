@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #f7fbff;
+  font-size: 20px;
+}
+
+h1 {
+  background-color: #287e4d;
+  color: white;
+  padding: 15px;
+  margin: 0;
+}
+
+#map-container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#map {
+  width: 100%;
+  display: block;
+}
+
+.continent {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 6px 12px;
+  background-color: rgba(255, 255, 255, 0.381);
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#card-container {
+  padding: 20px;
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 0.5px solid #00070b75;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+  padding: 16px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+
+/* .emoji {
+  font-family: "Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif;
+} */
