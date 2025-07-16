@@ -3,7 +3,7 @@ body {
   text-align: center;
   margin: 0;
   background-color: #f7fbff;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h1 {
@@ -32,7 +32,7 @@ h1 {
   border: 1px solid #ffffff;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 1.0rem;
+  font-size: 1.5rem;
 }
 
 #card-container {
