@@ -55,7 +55,23 @@ h1 {
   text-align: left;
 }
 
+@media (max-width: 600px) {
+  body {
+    font-size: 18px; /* 모바일용 글씨 크기 */
+    text-align: center;
+  }
 
-/* .emoji {
-  font-family: "Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif;
-} */
+  .card {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 22px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
